@@ -6,7 +6,7 @@ public class Main {
         Random rand = new Random();
         int random = rand.nextInt(100) + 1;
         int attempts = 0;
-        int max_attempts = 5;
+        int max_attempts = 10;
         int guess = 0;
         public void Guess()
         {
